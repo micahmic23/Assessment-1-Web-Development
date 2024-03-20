@@ -1,0 +1,66 @@
+/** The body style focuses on styling the contents within the body tag. This involves changing the font style to 'Arial' with sans-serif, changing the pages background color to a slightly grayish white/(#f2f2f2)
+and lastly setting both margin and padding to zero to remove any default settings. **/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/** To create a box for the Petrol Calculation, a class (calculator box) is used to style the design of the box. The width is set to 400px for the box's size. The margin is set to 50px which is the space surrounding the border. The box's color is set to white/(#ffffff). The padding is set to 20px which is the gap between the contents of the box and the border. To create rounded corners, the property 'border-radius' is set to 5px and a shadow is also added using the property 'box-shadow'.**/
+.calculator_box {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/** The class 'input' focuses on styling the contents of the box specifically the input fields. The input field's bottom margin is set to 15px. **/
+.input {
+    margin-bottom: 15px;
+}
+
+/** The class 'input' in this style targets the label elements. This includes positioning the elements above the input fields using the property 'display' with 'block' and the bottom margin set to 5px. **/
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/** The third input style targets the input fields of the box. This involves creating fields to input the amount in. The field's size is set to 100 using width. The padding is set to 8. To add rounded corners 'border-radius' is set to 3 with its border color set to a grey color/(#ccc) and a thickness of 1px. To create a smooth transition from the border changing colors, the property 'transition' is used within a duration of 0.3s. **/
+.input input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+/** The fourth input style deals with the input fields design when pressed on. Any outlines are removed, changing the color to blue.  **/
+.input input:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+/** The button style focuses on styling the calculate button. The padding/spacing that is within the button is set to 10px (top and bottom) and 20px (left and right). The buttons color is set to orange/(#ed9015) and the font color to white. The button's border is removed instead having curved corners of 3px. The property 'cursor' allows the cursor to change into a pointer when hovered. To create a smooth transition from the button changing colors, the property 'transition' is used within a duration of 0.3s.**/
+button {
+    padding: 10px 20px;
+    background-color: #ed9015;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/** The second button style targets the hovered state appearance by changing the button's color to a slightly darker orange.**/
+button:hover {
+    background-color: #e3860b;
+}
+
+/** Lastly, the id 'total_cost' styles the total value calculated by setting the font size to 18px and a top margin of 20px.**/
+#total_cost {
+    font-size: 18px;
+    margin-top: 20px;
+}

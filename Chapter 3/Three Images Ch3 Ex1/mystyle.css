@@ -1,0 +1,23 @@
+/* An img css is used to position all the three images to the left using the 'float' property. Curly braces are used in css to contain the styling inside in order for the css to function.*/
+
+/* To create an equal amount of spacing in between the images, the property 'margin-right' is used and is set to '10px'. */
+img {
+  float:left;
+  margin-right: 10px;
+}
+
+/* The class '.image1' is used to operate css filters on the image1. The same goes for '.image2' and '.image3' */
+
+/* The property 'filter' allows the images to be styled upon. CSS filters such as 'contrast', 'saturate', and 'grayscale' are used for the styling of these images. The level of intensity desired for each CSS filter can be adjusted by its percentage. */
+
+.image1{
+  filter: contrast(120%) saturate(150%);
+}
+
+.image2 {
+  filter: grayscale(100%) contrast(100%);
+}
+
+.image3 {
+  filter: grayscale(20%) contrast(140%) saturate(80%);
+}

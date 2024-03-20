@@ -1,0 +1,15 @@
+/* The video tag is used for the CSS in order for the video to be positioned at the center */
+
+/* Curly braces are used in css to contain the styling inside in order for the css to function.*/ 
+
+/* For the video to be positioned in the center horizontally and vertically, the video is styled to the center from top to bottom and left to right. That is why the values left and top are both adjusted to 50% to be moved into the exact center. */ 
+
+/* The attribute position allows you to position your video wherever. In this case, the value absolute is used to specify the position of the video from the top and left side of the margin's page. */ 
+
+/* The attribute transform allows you to change the video's coordinates, by using the attribute translate we can position the video according to the bottom and right through negative x and y coordinates (-50%, -50%). */
+video {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

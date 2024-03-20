@@ -1,0 +1,65 @@
+<!--This tag is used to send an instruction to the web browser regarding the version of html being used.-->
+<!DOCTYPE html>
+
+<!--The html tag is used to start every html code to allow the code to function in the web browser.-->
+<html>
+
+	<!--The head tag is used to identify the head/top section of an html page.-->
+	<head>
+
+		<!--The title tag is used to name the html page's tab on the web browser (Multi-Page Website Ch2 Ex2). It is closed with another title tag with a '/' in the front.-->
+		<title> Multi-Page Website Ch2 Ex2 </title>
+
+		<!--This is the tag used to operate the CSS of the html. In this case, an external CSS is utilized for the purpose of styling and designing the page. This is done by inserting the CSS file name 	(stylish.css) to be linked to whatever the css file is linked to in the html code.-->
+		<link rel="stylesheet" href="stylish.css" type="text/css" >
+
+		<!--The tag Body bgcolor allows the background of the html page to change color with whatever color you wish. The color can be changed with a string color, RGB, or HEX.-->
+		<Body bgcolor= #3c3c3c>
+
+	<!--The head tag is then closed with a slash in the front to operate the head section, in which consists of the CSS code that plays a huge part of the appearance/ aesthetics of the html page.-->
+	</head>
+
+	<!--The body tag is used to identify the body/main section of the page.-->
+	<body>
+
+		<!--The div tag conveys a division or segment in a page, which is meant by grouping elements together. In this div tag, a class attribute is used for a container called "navbar" to create the navigation bar of the page. Under this tag lies the contents of the "navbar", that are included through the use of anchor tags '<a>', each element with its href attribute storing its own individual html file to link the user from one page to new page. This is later on used to be styled on by using the CSS created.-->		
+		<div class="navbar">
+			<a href="plotover.html"> Plot Overview </a>
+			<a href="keyinfo.html"> Key Information </a>
+			<a href="castcharac.html"> Cast & Characters</a>
+			<a href="creat.html"> Creative Team </a>
+			<a href="reviews.html"> Reviews </a>
+
+		<!--The div tag is closed using a slash in the beginning to operate the navbar.-->
+		</div>
+
+		<!--The heading tag '<h1>' is used to display the heading of the page.-->
+		<h1> Spider-man into the Spider-verse </h1>
+
+		<!--Another heading tag is used for the second segment of the page. This heading is a smaller font size because of the 2, The bigger the number, the smaller the text's font size gets.-->
+       		<h2> Key Information </h2>
+
+		<!--The paragraph tag defines a huge amount of text. In this tag, the movie's key information is included.-->
+	 	<p> 
+
+		<!--To create an unordered list (bullet points), the tag '<ul>' is utilized to list out points in an unordered manner. Under the '<ul>' tag, each individual list is placed in-between a '<li>' list tag.-->		<ul>
+			<li> Rating: PG (Mild Language|Frenetic Action Violence|Thematic Elements) </li>
+			<li> Genre: Kids & family, Action, Adventure, Comedy, Fantasy, Animation </li>
+			<li> Original Language: English </li>
+			<li> Director: Bob Persichetti, Peter Ramsey, Rodney Rothman </li>
+			<li> Producer: Avi Arad, Amy Pascal, Phil Lord, Chris Miller, Christina Steinberg </li>
+	  		<li> Writer: Phil Lord, Rodney Rothman </li>
+ 			<li> Release Date (Theaters): Dec 14, 2018  Wide </li>
+			<li> Release Date (Streaming): Mar 7, 2019 </li>
+			<li> Box Office (Gross USA): $190.2M </li>
+	  		<li> Runtime: 1h 57m </li>
+ 			<li> Distributor: Columbia Pictures, Sony Pictures Entertainment </li>
+			<li> Sound Mix: Dolby Atmos, DTS, Dolby Digital, SDDS </li>
+		</ul>
+	 	</p>
+
+	<!--The body is closed for the contents of the body section to fully operate.-->
+	</body>
+
+<!--The html tag is also closed to allow the whole page to function properly.-->
+</html>
